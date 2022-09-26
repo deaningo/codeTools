@@ -1,0 +1,146 @@
+.codeTools-whole-page {
+    font-size: 14px;
+    user-select: none;
+    padding: 0;
+    margin: 0;
+    width: 152px;
+    position: relative;
+    overflow: hidden
+}
+
+.codeTools-hide {
+    display: none
+}
+
+.codeTools-function-title {
+    padding: 5px;
+    color: #522;
+    font-weight: bolder;
+    cursor: default;
+    border-bottom: 1px dotted #aaa;
+    text-align: center;
+    font-size: 12px
+}
+
+.codeTools-function-title span {
+    font-weight: normal;
+    color: #e1e1e1
+}
+
+ul.codeTools-function-list {
+    padding: 0 10px;
+    list-style: none;
+    width: 130px
+}
+
+ul.codeTools-function-list li {
+    padding: 3px 5px 3px 5px;
+    cursor: pointer;
+    color: #555;
+    -webkit-transition: all .4s ease;
+    text-align: justify;
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    width: 116px;
+    border-bottom: 1px dashed #e5e5e5;
+    overflow: hidden
+}
+
+ul.codeTools-function-list li:last-child {
+    border-bottom: 0
+}
+
+ul.codeTools-function-list li.x-hovered,
+ul.codeTools-function-list li:hover {
+    color: #ff3c11;
+    background: #f1f1f1
+}
+
+ul.codeTools-function-list li>span {
+    padding-left: 24px
+}
+
+/* ul.codeTools-function-list li:after {
+    content: ' ';
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    height: 0
+  } */
+
+ul.codeTools-function-list li {
+    font-size: 14px;
+}
+
+ul.codeTools-function-list li>b {
+    width: 14px;
+    height: 14px;
+    -webkit-transition: all .5s ease;
+    display: inline-block;
+    margin-right: 14px;
+    color: #48f
+}
+
+ul.codeTools-function-list li:hover>b {
+    -webkit-transform: rotate(360deg)
+}
+
+ul.codeTools-function-list li i {
+    color: #aaa;
+    font-weight: 700;
+    font-style: normal
+}
+
+.codeTools-codeToolsedback {
+    font-size: 12px;
+    border-top: 1px dotted #ddd;
+    padding: 5px 15px;
+    line-height: 20px;
+    color: #888
+}
+
+.codeTools-codeToolsedback a {
+    color: #888;
+    text-decoration: none;
+    text-align: left
+}
+
+.codeTools-codeToolsedback a:hover {
+    color: #c00
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+.codeTools-codeToolsedback svg {
+    vertical-align: text-bottom;
+    display: inline-block;
+    fill: currentColor
+}
+
+.codeTools-codeToolsedback img {
+    opacity: .6;
+    position: relative;
+    top: 1px
+}
+
+.codeTools-codeToolsedback a:hover img {
+    opacity: 1.0
+}
+
+.codeTools-codeToolsedback .x-settings {
+    float: right;
+    cursor: pointer;
+    margin-left: 5px
+}
+
+.codeTools-codeToolsedback .x-settings:hover {
+    color: #c00
+}
+
+.codeTools-codeToolsedback .x-fb,
+.codeTools-codeToolsedback .x-settings {
+    float: right
+}
